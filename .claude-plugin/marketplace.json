@@ -1,0 +1,22 @@
+{
+  "name": "python-crypto-skills",
+  "owner": {
+    "name": "ApeWorX LTD",
+    "email": "admin@apeworx.io"
+  },
+  "metadata": {
+    "description": "Crypto Skills for Python Developers",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "silverback",
+      "description": "Collection of skills for working with Silverback bots and the Silverback Platform",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./silverback/writing-bots"
+      ]
+    }
+  ]
+}
