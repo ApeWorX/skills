@@ -17,6 +17,15 @@
       "skills": [
         "./silverback/writing-bots"
       ]
+    },
+    {
+      "name": "protocols",
+      "description": "Collection of skills for working with various blockchain protocols",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./protocols/uniswap"
+      ]
     }
   ]
 }
