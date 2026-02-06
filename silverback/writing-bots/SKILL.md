@@ -111,7 +111,7 @@ Only after the user thinks that the bot seems well-written and ready for testing
 To install silverback, run the following command with `uv` installed:
 
 ```bash
-$ uv sync
+$ uv tool install silverback
 ```
 
 This will make the `silverback` cli command available.
