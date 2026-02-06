@@ -5,26 +5,50 @@
     "email": "admin@apeworx.io"
   },
   "metadata": {
-    "description": "Crypto Skills for Python Developers",
-    "version": "1.0.0"
+    "description": "Skills for building blockchain applications in Python using the Ape stack - covers project setup, Ape plugins, protocol SDKs, Silverback bots, and DeFi integrations",
+    "version": "1.0.0",
+    "repository": "https://github.com/ApeWorX/skills",
+    "tags": ["python", "blockchain", "crypto", "web3", "ape", "silverback", "uniswap", "defi", "bots", "smart-contracts"]
   },
   "plugins": [
     {
-      "name": "silverback",
-      "description": "Collection of skills for working with Silverback bots and the Silverback Platform",
+      "name": "development",
+      "description": "Skills for architecting new Python blockchain projects, establishing best practices, and clarifying project requirements",
       "source": "./",
       "strict": false,
       "skills": [
-        "./silverback/writing-bots"
+        "./development/new-project",
+        "./development/spec-interview",
+        "./development/python-packages"
+      ]
+    },
+    {
+      "name": "ape",
+      "description": "Skills for extending Ape Framework with custom plugins and designing smart contract protocols",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./ape/protocol-design",
+        "./ape/writing-plugins"
       ]
     },
     {
       "name": "protocols",
-      "description": "Collection of skills for working with various blockchain protocols",
+      "description": "Skills for building Python SDKs for blockchain protocols and integrating with DeFi platforms like Uniswap",
       "source": "./",
       "strict": false,
       "skills": [
+        "./protocols/writing-sdks",
         "./protocols/uniswap"
+      ]
+    },
+    {
+      "name": "silverback",
+      "description": "Skills for designing and implementing Silverback bots that listen and respond to blockchain events",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./silverback/writing-bots"
       ]
     }
   ]
