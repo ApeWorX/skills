@@ -19,7 +19,8 @@
       "skills": [
         "./development/new-project",
         "./development/spec-interview",
-        "./development/python-packages"
+        "./development/python-packages",
+        "./development/smart-contracts"
       ]
     },
     {

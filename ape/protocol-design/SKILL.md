@@ -122,7 +122,10 @@ dev = [
 
 ### Step 4: Develop the Smart Contracts
 
-Guide the user through implementing their contracts:
+Guide the user through implementing their contracts.
+Reference the `development/smart-contracts` skill for detailed guidance on writing secure, readable,
+and maintainable smart contract code — including architecture patterns, security practices, state
+management, error handling, event design, access control, gas optimization, and testing patterns.
 
 - Start with the core contract that holds the protocol's primary state
 - Build outward to supporting contracts that interact with it

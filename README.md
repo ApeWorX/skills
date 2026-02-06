@@ -8,6 +8,7 @@ Skills for Claude and other LLMs/Agents to help users and agents quickly learn a
 - **new-project** - Architect new Python-based blockchain projects using the Ape framework
 - **spec-interview** - Clarify under-specified project requirements through guided Q&A
 - **python-packages** - Best practices for developing and packaging Python projects
+- **smart-contracts** - General smart contract development principles, design patterns, and security practices
 
 ### Ape Framework
 - **protocol-design** - Design smart contract protocols using Ape for development, testing, scripting, and deployment
