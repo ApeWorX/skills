@@ -1,5 +1,5 @@
 ---
-name: python-packaging
+name: python-packages
 description: |
   Best practices for developing a Python-based project.
   Use when creating a new project to ensure best practices according to ApeWorX development standards.
