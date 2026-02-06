@@ -26,6 +26,15 @@
       "skills": [
         "./protocols/uniswap"
       ]
+    },
+    {
+      "name": "deployments",
+      "description": "Collection of skills for deterministic and advanced smart contract deployment strategies",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./deployments/createx-py"
+      ]
     }
   ]
 }
