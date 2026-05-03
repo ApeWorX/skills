@@ -12,6 +12,7 @@ Skills for Claude and other LLMs/Agents to help users and agents quickly learn a
 ### Ape Framework
 - **protocol-design** - Design smart contract protocols using Ape for development, testing, scripting, and deployment
 - **writing-plugins** - Create plugins to extend Ape Framework with new compilers, providers, and more
+- **migrate-from-brownie** - Migrate Python smart-contract projects from the deprecated Brownie framework to Ape, using a community codemod plus AI-assisted manual cleanup
 
 ### Protocols
 - **writing-sdks** - Build Python SDKs for blockchain protocols using Ape Framework
