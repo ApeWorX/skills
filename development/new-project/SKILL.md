@@ -127,3 +127,4 @@ After user reviews the architecture:
 - Don't create overly complex structures for simple projects
 - Don't skip documentation fetching - APIs and best practices change
 - Don't forget to specify where additional skills/docs are needed
+- Don't add macOS runners to CI while the repository is private (see `development/python-packages`)
