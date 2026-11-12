@@ -123,3 +123,24 @@ It is important that this file have relevant information for downstream users in
 Test organization is important for the project,
 we typically segregate our test suite into "functional" (unit-level) tests and "integration" (system-level) tests.
 Doing this makes it easy to run only the relevant tests when developing a new feature.
+
+### Private Repositories and CI
+
+New projects typically start as a **private** repository,
+and stay private until the PyPI package name has been reserved (e.g. by publishing an initial release),
+so that the name can't be claimed by someone else before the project is announced.
+
+GitHub Actions minutes on private repositories count against the organization's limited monthly quota,
+while standard runners on public repositories are free.
+macOS runners are billed at 10x the Linux rate (and each job is rounded up to a full minute),
+so they will exhaust the quota very quickly.
+
+**While the repository is private:**
+
+1. Only use `ubuntu-latest` runners in CI (keep the full Python version matrix)
+2. Do not add `macos-latest` (or Windows) runners to the test matrix
+3. Add `concurrency` with `cancel-in-progress: true` to avoid paying for superseded runs
+
+**Once the repository is made public:** add `macos-latest` back to the test matrix,
+and add the new required checks to the repository's ruleset.
+
